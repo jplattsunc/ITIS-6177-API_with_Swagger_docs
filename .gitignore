@@ -1,16 +1,12 @@
-# Node modules
+
 node_modules/
-
-# VS Code settings
-.vscode/
-.vscode-server/
-
-# Cache directories
-.cache/
 .npm/
 
-# Sensitive and personal files (usually shouldn't be in a repo)
 .ssh/
+
+.vscode/
+.vscode-server/
+.cache/
 .bash_history
 .bash_logout
 .bash_profile
@@ -20,7 +16,6 @@ node_modules/
 .lesshst
 .mysql_history
 .tcshrc
-
-# Other generated or temporary files
 nohup.out
+
 

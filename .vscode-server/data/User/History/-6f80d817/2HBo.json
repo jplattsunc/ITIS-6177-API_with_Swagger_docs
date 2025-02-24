@@ -1,9 +1,0 @@
-{
-    "workbench.colorTheme": "Default Dark+",
-    "window.zoomLevel": 1,
-    "editor.minimap.enabled": false,
-    "workbench.editor.showTabs": "single",
-    "remote.SSH.remotePlatform": {
-        "104.236.37.149": "linux"
-    }
-}

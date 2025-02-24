@@ -1,0 +1,67 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.18.3
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.cache/typescript/5.7/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install @types/express@ts5.7 @types/swagger-jsdoc@ts5.7 @types/swagger-ui-express@ts5.7
+8 verbose argv "install" "--ignore-scripts" "@types/express@ts5.7" "@types/swagger-jsdoc@ts5.7" "@types/swagger-ui-express@ts5.7" "--save-dev" "--user-agent" "typesInstaller/5.7.3"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-02-23T23_49_34_857Z-
+10 verbose logfile /root/.npm/_logs/2025-02-23T23_49_34_857Z-debug-0.log
+11 silly packumentCache heap:417071104 maxSize:104267776 maxEntrySize:52133888
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fexpress cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fswagger-jsdoc cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2fswagger-ui-express cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-jsdoc 251ms (cache updated)
+18 silly packumentCache corgi:https://registry.npmjs.org/@types%2fswagger-jsdoc set size:undefined disposed:false
+19 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-ui-express 258ms (cache updated)
+20 silly packumentCache corgi:https://registry.npmjs.org/@types%2fswagger-ui-express set size:undefined disposed:false
+21 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 265ms (cache updated)
+22 silly packumentCache corgi:https://registry.npmjs.org/@types%2fexpress set size:undefined disposed:false
+23 silly idealTree buildDeps
+24 silly fetch manifest @types/express@5.0.0
+25 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 54ms (cache updated)
+27 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress set size:undefined disposed:false
+28 silly fetch manifest @types/swagger-jsdoc@6.0.4
+29 silly packumentCache full:https://registry.npmjs.org/@types%2fswagger-jsdoc cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-jsdoc 104ms (cache updated)
+31 silly packumentCache full:https://registry.npmjs.org/@types%2fswagger-jsdoc set size:undefined disposed:false
+32 silly fetch manifest @types/swagger-ui-express@4.1.8
+33 silly packumentCache full:https://registry.npmjs.org/@types%2fswagger-ui-express cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fswagger-ui-express 116ms (cache updated)
+35 silly packumentCache full:https://registry.npmjs.org/@types%2fswagger-ui-express set size:undefined disposed:false
+36 silly placeDep ROOT @types/express@5.0.0 REPLACE for:  want: 5.0.0
+37 silly placeDep ROOT @types/swagger-jsdoc@6.0.4 REPLACE for:  want: 6.0.4
+38 silly placeDep ROOT @types/swagger-ui-express@4.1.8 REPLACE for:  want: 4.1.8
+39 silly reify moves {}
+40 silly audit bulk request {
+40 silly audit   '@types/body-parser': [ '1.19.5' ],
+40 silly audit   '@types/connect': [ '3.4.38' ],
+40 silly audit   '@types/express-serve-static-core': [ '5.0.6' ],
+40 silly audit   '@types/http-errors': [ '2.0.4' ],
+40 silly audit   '@types/merge-descriptors': [ '1.0.3' ],
+40 silly audit   '@types/mime': [ '1.3.5' ],
+40 silly audit   '@types/node': [ '22.13.5' ],
+40 silly audit   '@types/qs': [ '6.9.18' ],
+40 silly audit   '@types/range-parser': [ '1.2.7' ],
+40 silly audit   '@types/send': [ '0.17.4' ],
+40 silly audit   '@types/serve-static': [ '1.15.7' ],
+40 silly audit   '@types/swagger-ui-dist': [ '3.30.5' ],
+40 silly audit   'types-registry': [ '0.1.709' ],
+40 silly audit   'undici-types': [ '6.20.0' ],
+40 silly audit   '@types/express': [ '5.0.0' ],
+40 silly audit   '@types/swagger-jsdoc': [ '6.0.4' ],
+40 silly audit   '@types/swagger-ui-express': [ '4.1.8' ]
+40 silly audit }
+41 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 113ms
+42 silly audit report {}
+43 verbose cwd /root/.cache/typescript/5.7
+44 verbose os Linux 5.14.0-325.el9.x86_64
+45 verbose node v20.18.3
+46 verbose npm  v10.8.2
+47 verbose exit 0
+48 info ok

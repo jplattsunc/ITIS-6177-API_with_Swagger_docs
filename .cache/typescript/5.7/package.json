@@ -1,0 +1,1 @@
+{"private":true,"dependencies":{"types-registry":"^0.1.709"},"devDependencies":{"@types/body-parser":"^1.19.5","@types/express":"^5.0.0","@types/merge-descriptors":"^1.0.3","@types/serve-static":"^1.15.7","@types/swagger-jsdoc":"^6.0.4","@types/swagger-ui-dist":"^3.30.5","@types/swagger-ui-express":"^4.1.8"}}

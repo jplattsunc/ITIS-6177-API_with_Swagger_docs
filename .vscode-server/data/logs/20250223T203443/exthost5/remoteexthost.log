@@ -1,0 +1,18 @@
+2025-02-23 21:49:42.159 [info] Extension host with pid 59290 started
+2025-02-23 21:49:42.383 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-02-23 21:49:42.389 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-23 21:49:42.580 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/c6f98b1f59bb8f883851bd38953d500e/vscode.lock': Lock acquired.
+2025-02-23 21:49:42.781 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-02-23 21:49:42.788 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-23 21:49:43.615 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-02-23 21:49:44.206 [info] Eager extensions activated
+2025-02-23 21:49:44.207 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 21:49:44.207 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 21:49:46.742 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2025-02-23 21:49:53.008 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 21:49:53.017 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 21:49:53.018 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 21:50:01.127 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-02-23 21:55:53.134 [info] Extension host terminating: received terminate message from renderer
+2025-02-23 21:55:53.136 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/c6f98b1f59bb8f883851bd38953d500e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-23 21:55:53.311 [info] Extension host with pid 59290 exiting with code 0

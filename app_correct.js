@@ -1,4 +1,5 @@
 const express = require('express');
+const axios = require('axios');
 const mariadb = require('mariadb');
 const { body, param, validationResult } = require('express-validator');
 const swaggerJsDoc = require('swagger-jsdoc');
@@ -6,6 +7,8 @@ const swaggerUi = require('swagger-ui-express');
 
 const app = express();
 const port = 3000;
+
+const lambdaUrl = "https://fmxb2tenr2.execute-api.us-east-2.amazonaws.com/default/SayFunction";
 
 app.use(express.json());
 
@@ -42,7 +45,27 @@ const swaggerOptions = {
   const swaggerDocs = swaggerJsDoc(swaggerOptions);
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));  
 
+/* -------------------- AWS Lambda Say Function ---------------- */
+//http://104.236.37.149:3000/say?keyword=hello
+
+app.get('/say', async (req, res) => {
+    const keyword = req.query.keyword;
+
+    if (!keyword) {
+        return res.status(400).json({ error: "Missing keyword parameter" });
+    }
+
+    try {
+        const response = await axios.get(`${lambdaUrl}?keyword=${encodeURIComponent(keyword)}`);
+        res.json(response.data);
+    } catch (error) {
+        console.error("Error calling Lambda:", error.response ? error.response.data : error.message);
+        res.status(500).json({ error: "Error processing request" });
+    }
+});
+
 /* -------------------- Customer Endpoints -------------------- */
+//http://104.236.37.149:3000//api-docs
 
 /**
  * @swagger
